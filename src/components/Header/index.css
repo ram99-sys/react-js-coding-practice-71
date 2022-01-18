@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+.icon {
+  font-size: 30px;
+}
+.trigger-button {
+  background-color: transparent;
+  border: none;
+}
+.popup-container {
+  height: 95vh;
+  width: 95vw;
+  margin: 0px;
+  text-align: right;
+}
+.close-icon {
+  font-size: 30px;
+  font-weight: 600;
+}
+.links-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 96vw;
+  list-style-type: none;
+}
+.link {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.home-icon {
+  font-size: 30px;
+  color: #616e7c;
+  margin-right: 10px;
+}
+.link-heading {
+  text-decoration: none;
+  color: #616e7c;
+  font-family: 'Roboto';
+}
